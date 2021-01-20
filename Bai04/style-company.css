@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+}
+.image-header{
+    background: url(./Image/11.png) no-repeat center center/ cover;
+    width: 80%;
+    height: 40vh;
+}
+.form-text{
+    height: 9em;
+    width: 20em;
+    text-align: right;
+    background-color:#3eafd8;
+    opacity: 0.8;
+    margin-left: 60em;
+    margin-top: 5em;
+}
+.text-header{
+    margin-left: 2px;
+    margin-right: 5px;
+}
+/* .task-border{
+    border-left: 3px solid #f66436;
+} */
+.border-ourValues{
+    background-color: #e5ecee;
+}

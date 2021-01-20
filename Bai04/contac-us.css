@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+.image-header{
+    background: url(./Image/contact-us.png) no-repeat center center/ cover;
+    /* width: 80%; */
+    height: 50vh;
+}
+.form-text{
+    height: 9em;
+    width: 20em;
+    text-align: right;
+    background-color:#3eafd8;
+    opacity: 0.8;
+    margin-left: 60em;
+    margin-top: 5em;
+    
+}
+.button-click{
+    justify-content: center;
+    box-shadow: 0.1px 5px #0b475d;
+}

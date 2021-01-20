@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+}
+.image-header{
+    background: url(./Image/compliance.png) no-repeat center center/ cover;
+    /* width: 80%; */
+    height: 50vh;
+}
+.form-text{
+    height: 9em;
+    width: 20em;
+    text-align: right;
+    background-color:#3eafd8;
+    opacity: 0.8;
+    margin-left: 60em;
+    margin-top: 5em;
+}
+.card-item{
+    /* background-color: aliceblue; */
+    border-radius: 7px;
+    box-shadow: 2px 5px 5px rgb(212, 208, 208);
+}
+.card-item:hover{
+    /* background-color: rgb(239, 244, 248); */
+    border-radius: 7px;
+    box-shadow: 2px 6px 10px rgb(207, 204, 204);
+    transform: translateY(-0.1px);
+    border: 0.4px solid black;
+}

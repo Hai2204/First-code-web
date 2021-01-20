@@ -1,0 +1,62 @@
+.line, .line1, .line2{
+    width: 23px;
+    height: 2px;
+    margin: 3px;
+}
+
+.input{
+    background: transparent;
+    border-color: transparent;
+    border-radius: 0;
+    border-bottom: 2px solid #ccc;
+    transition: all 0.8s;
+}
+.input:focus{
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: #fff;
+    border-bottom: 2px solid rgb(255, 0, 0);
+
+}
+.nav-menu{
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9));
+    /* height: 12vh; */
+    transition: all .4s;
+}
+.custom-navbar{
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7));
+    /* height: 10vh; */
+    opacity: 0.9;
+}
+
+.input:placeholder-shown{
+    font-style: italic;
+    
+}
+.dropdown-menu{
+    padding: 10px;
+    line-height: 18px;
+}
+#run h3{
+    font-size: 30px;
+    animation-name: test;
+    position: flex;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+/* #test:hover{
+    margin-left: 250px;
+} */
+@keyframes test{
+    0% {color: red; left: 0px; top: 0px;}
+    20% {color: #fff; left: 700px; top: 0px;}
+    40% {color: #fff; left: 800px; top: 500px;}
+    60% {color: #fff; top: 500px;right: 1000px;}
+    80% {color: aqua; top: 0px; right: 1000px;}
+    100% {right: 0; top: 0px;}
+}
